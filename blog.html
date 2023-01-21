@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLog</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/index.html" class="header__link">
+                <img src="img/header-logo.png" alt="logo" class="logo">
+            </a>
+            <div class="menu">
+                <a href="/about.html" class="menu__link">About Us</a>
+                <a href="courses.html" class="menu__link">Courses</a>
+                <a href="/events.html" class="menu__link">Events</a>
+                <a href="#" class="menu__link">Blog</a>
+                <a href="/contacts.html" class="menu__link">Contacts</a>
+            </div>
+            <button class="btn">Get consultation</button>
+            <a href="#" class="login reg">Log in /</a>
+            <a href="#" class="login log">Register</a>
+            <div class="registration-fade">
+                <div class="registration" id="registration">
+                    <img src="img/close.svg" alt="cross" class="close-reg">
+                    <h5 class="reg-name">Sign in</h5>
+                    <p class="reg-descr">
+                        Sign in to your account using email and password provided during registration.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Email</p>
+                        <input type="email" class="reg-input" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Keep me signed in</span>
+                            </div>
+                            <a href="#" class="forgot">Forgot password?</a>
+                        </div>
+                        <button class="btn">Sign in</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Don't have an account?</p>
+                            <a href="#" class="sign-link">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="sign-up" id="sign-up">
+                    <img src="img/close.svg" alt="cross" class="close-log">
+                    <h5 class="reg-name">Sign up</h5>
+                    <p class="reg-descr">
+                        Registration takes less than a minute but gives you full control over your studying.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Full Name</p>
+                        <input type="text" class="reg-input" placeholder="Your full name">
+                        <p class="reg-form-name">Email</p>
+                        <input class="reg-input" type="email" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <p class="reg-form-name">Confirm Password</p>
+                        <input class="reg-input" type="password" placeholder="Repeat password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Remember me</span>
+                            </div>
+                        </div>
+                        <button class="btn">Sign up</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Already have an account?</p>
+                            <a href="#" class="sign-link">Sign in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="blog">
+            <div class="wrapper">
+                <h3 class="quest">Our blog</h3>
+                <h2 class="section-title">Createx School Journal</h2>
+                <div class="blog-tabs">
+                    <a href="#blog-all" class="blog-tab-link tab-active">All</a>
+                    <a href="#blog-articles" class="blog-tab-link">Articles</a>
+                    <a href="#blog-video" class="blog-tab-link">Videos</a>
+                    <a href="#blog-badge" class="blog-tab-link">Podcasts</a>
+                </div>
+                <div class="blog-tabs-container def-tab" id="blog-all">
+                    <div class="wrapper">
+                        <ul class="blog-list">
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-1.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Marketing | <img src="img/Calendar.svg" alt="Calendar"> September 4, 2020 | <img src="img/Clock.svg" alt="clock"> 36 min
+                                </p>
+                                <h4 class="item-title">
+                                    What is traffic arbitrage and does it really make money?
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Pharetra, ullamcorper iaculis viverra parturient sed id sed. 
+                                    Convallis proin dignissim lacus, purus gravida...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Listen <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/badge.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-2.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Management | <img src="img/Calendar.svg" alt="Calendar"> August 25, 2020 | <img src="img/Clock.svg" alt="clock"> 45 min
+                                </p>
+                                <h4 class="item-title">
+                                    What to do and who to talk to if you want to get feedback on the product
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Watch <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/video.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-3.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Design | <img src="img/Calendar.svg" alt="Calendar"> August 8, 2020
+                                </p>
+                                <h4 class="item-title">
+                                    Should you choose a creative profession if you are attracted to creativity?
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Read <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/articles.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item blog-item-big">
+                                <img class="blog-img" src="img/blog-tab-big-1.jpg" alt="blog">
+                                <p class="blog-info">
+                                    HR & Recruting | <img src="img/Calendar.svg" alt="Calendar"> August 3, 2020
+                                </p>
+                                <h4 class="item-title">
+                                    HR statistics: job search,  interviews, hiring and recruiting
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Massa, lectus nibh consectetur aliquet nunc risus aenean. 
+                                    Leo hac netus bibendum diam adipiscing aenean nisl.
+                                     Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...
+                                </p>
+                                <a href="/posts/hrPost.html" class="blog-link">Read <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/articles.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item blog-item-midl">
+                                <img class="blog-img" src="img/blog-tab-big-2.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Management | <img src="img/Calendar.svg" alt="Calendar"> August 2, 2020 | <img src="img/Clock.svg" alt="clock"> 45 min
+                                </p>
+                                <h4 class="item-title">
+                                    What to do and who to talk to if you want to get feedback on the product
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus. 
+                                    Curabitur nisl tincidunt eros venenatis...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Watch <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/video.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-4.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Design | <img src="img/Calendar.svg" alt="Calendar"> July 28, 2020 | <img src="img/Clock.svg" alt="clock"> 36 min
+                                </p>
+                                <h4 class="item-title">
+                                    What are color profiles and how they work in graphic design
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Aliquam vulputate hendrerit quam sollicitudin urna enim viverra gravida. Consectetur urna arcu eleifend...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Listen <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/badge.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-5.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Management | <img src="img/Calendar.svg" alt="Calendar"> July 15, 2020 | <img src="img/Clock.svg" alt="clock"> 45 min
+                                </p>
+                                <h4 class="item-title">
+                                    Startup: how to build a team that will live longer than a year
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Nisi, massa ut sit faucibus et diam. Faucibus at malesuada at justo scelerisque in nisi, urna...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Watch <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/video.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-6.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Marketing | <img src="img/Calendar.svg" alt="Calendar"> July 9, 2020
+                                </p>
+                                <h4 class="item-title">
+                                    How to get customers to love your business from the start
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Malesuada in augue mi feugiat morbi a aliquet enim. Elementum lacus, pellentesque etiam arcu tristique ac...
+                                </p>
+                                <a href="/posts/traficPost.html" class="blog-link">Read <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/articles.png" alt="badge" class="blog-category">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="blog-tabs-container" id="blog-articles">
+                    <div class="wrapper">
+                        <ul class="blog-list">
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-3.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Design | <img src="img/Calendar.svg" alt="Calendar"> August 8, 2020
+                                </p>
+                                <h4 class="item-title">
+                                    Should you choose a creative profession if you are attracted to creativity?
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...
+                                </p>
+                                <a href="#" class="blog-link">Read <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/articles.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item blog-item-big">
+                                <img class="blog-img" src="img/blog-tab-big-1.jpg" alt="blog">
+                                <p class="blog-info">
+                                    HR & Recruting | <img src="img/Calendar.svg" alt="Calendar"> August 3, 2020
+                                </p>
+                                <h4 class="item-title">
+                                    HR statistics: job search,  interviews, hiring and recruiting
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Massa, lectus nibh consectetur aliquet nunc risus aenean. 
+                                    Leo hac netus bibendum diam adipiscing aenean nisl.
+                                     Molestie nullam ante mattis ac sit vitae pellentesque mi etiam. Morbi commodo tempor, massa vivamus. A molestie id semper fermentum pretium...
+                                </p>
+                                <a href="#" class="blog-link">Read <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/articles.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-6.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Marketing | <img src="img/Calendar.svg" alt="Calendar"> July 9, 2020
+                                </p>
+                                <h4 class="item-title">
+                                    How to get customers to love your business from the start
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Malesuada in augue mi feugiat morbi a aliquet enim. Elementum lacus, pellentesque etiam arcu tristique ac...
+                                </p>
+                                <a href="#" class="blog-link">Read <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/articles.png" alt="badge" class="blog-category">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="blog-tabs-container" id="blog-video">
+                    <div class="wrapper">
+                        <ul class="blog-list">
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-2.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Management | <img src="img/Calendar.svg" alt="Calendar"> August 25, 2020 | <img src="img/Clock.svg" alt="clock"> 45 min
+                                </p>
+                                <h4 class="item-title">
+                                    What to do and who to talk to if you want to get feedback on the product
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...
+                                </p>
+                                <a href="#" class="blog-link">Watch <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/video.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item blog-item-midl">
+                                <img class="blog-img" src="img/blog-tab-big-2.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Management | <img src="img/Calendar.svg" alt="Calendar"> August 2, 2020 | <img src="img/Clock.svg" alt="clock"> 45 min
+                                </p>
+                                <h4 class="item-title">
+                                    What to do and who to talk to if you want to get feedback on the product
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus. 
+                                    Curabitur nisl tincidunt eros venenatis...
+                                </p>
+                                <a href="#" class="blog-link">Watch <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/video.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-5.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Management | <img src="img/Calendar.svg" alt="Calendar"> July 15, 2020 | <img src="img/Clock.svg" alt="clock"> 45 min
+                                </p>
+                                <h4 class="item-title">
+                                    Startup: how to build a team that will live longer than a year
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Nisi, massa ut sit faucibus et diam. Faucibus at malesuada at justo scelerisque in nisi, urna...
+                                </p>
+                                <a href="#" class="blog-link">Watch <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/video.png" alt="badge" class="blog-category">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="blog-tabs-container" id="blog-badge">
+                    <div class="wrapper">
+                        <ul class="blog-list">
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-1.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Marketing | <img src="img/Calendar.svg" alt="Calendar"> September 4, 2020 | <img src="img/Clock.svg" alt="clock"> 36 min
+                                </p>
+                                <h4 class="item-title">
+                                    What is traffic arbitrage and does it really make money?
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Pharetra, ullamcorper iaculis viverra parturient sed id sed. 
+                                    Convallis proin dignissim lacus, purus gravida...
+                                </p>
+                                <a href="#" class="blog-link">Listen <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/badge.png" alt="badge" class="blog-category">
+                            </li>
+                            <li class="blog-item">
+                                <img class="blog-img" src="img/blog-4.jpg" alt="blog">
+                                <p class="blog-info">
+                                    Design | <img src="img/Calendar.svg" alt="Calendar"> July 28, 2020 | <img src="img/Clock.svg" alt="clock"> 36 min
+                                </p>
+                                <h4 class="item-title">
+                                    What are color profiles and how they work in graphic design
+                                </h4>
+                                <p class="blog__item-descr">
+                                    Aliquam vulputate hendrerit quam sollicitudin urna enim viverra gravida. Consectetur urna arcu eleifend...
+                                </p>
+                                <a href="#" class="blog-link">Listen <img src="img/Right.svg" alt="arrow"></a>
+                                <img src="img/badge.png" alt="badge" class="blog-category">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog-subscribe">
+            <div class="wrapper">
+                <h2 class="section-title">Want to get the best articles weekly?
+                    Subscribe to our newsletter!
+                </h2>
+                <div class="form-container">
+                    <form action="post" class="blog-form">
+                        <input class="form-input" type="email" name="mail" placeholder="Your working email">
+                        <button class="btn">Subscribe</button>
+                    </form>
+                    <div class="check-container">
+                        <input class="checkbox" type="checkbox" name="check">
+                        <span class="text-check">I agree to receive communications from Createx Online School</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-conteiner">
+                <a href="/index.html" class="footer-logo">
+                    <img class="footer-logo" src="img/footer-logo.png" alt="logo">
+                </a>
+                <p class="footer-descr">
+                    Createx Online School is a leader in online studying. 
+                    We have lots of courses and programs from the main market experts. 
+                    We provide relevant approaches to online learning, internships and employment in the 
+                    largest companies in the country. 
+                </p>
+                <div class="social-footer">
+                    <a href="#" class="img-link">
+                        <img src="img/Facebook.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Twitter.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/YouTube.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/telegram.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Instagram (1).svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Linked-In.svg" alt="link">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SITE MAP</h4>
+                <div class="footer-menu">
+                    <a href="/about.html" class="footer-link">About Us</a>
+                    <a href="/courses.html" class="footer-link">Courses</a>
+                    <a href="/events.html" class="footer-link">Events</a>
+                    <a href="#" class="footer-link">Blog</a>
+                    <a href="/contacts.html" class="footer-link">Contacts</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">COURSES</h4>
+                <div class="footer-menu">
+                    <a href="#" class="footer-link">Marketing</a>
+                    <a href="#" class="footer-link">Management</a>
+                    <a href="#" class="footer-link">HR & Recruting</a>
+                    <a href="#" class="footer-link">Design</a>
+                    <a href="#" class="footer-link">Development</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">CONTACT US</h4>
+                <address class="footer-address">
+                    <a class="footer-tel" href="tel:4055550128">(405) 555-0128</a>
+                    <a class="footer-mail" href="mailto:hello@createx.com">hello@createx.com</a>
+                </address>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SIGN UP TO OUR NEWSLETTER</h4>
+                <form action="post" class="footer-form">
+                    <input class="footer-input" type="email" name="mail" placeholder="Email address">
+                    <button class="footer-btn"><img src="img/footer-arrow.svg" alt="arrow"></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/blog.js"></script>
+    <script src="js/registration.js"></script>
+</body>
+</html>

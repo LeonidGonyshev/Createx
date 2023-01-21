@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/index.html" class="header__link">
+                <img src="img/header-logo.png" alt="logo" class="logo">
+            </a>
+            <div class="menu">
+                <a href="/about.html" class="menu__link">About Us</a>
+                <a href="/courses.html" class="menu__link">Courses</a>
+                <a href="/events.html" class="menu__link">Events</a>
+                <a href="/blog.html" class="menu__link">Blog</a>
+                <a href="#" class="menu__link">Contacts</a>
+            </div>
+            <button class="btn">Get consultation</button>
+            <a href="#" class="login reg">Log in /</a>
+            <a href="#" class="login log">Register</a>
+            <div class="registration-fade">
+                <div class="registration" id="registration">
+                    <img src="img/close.svg" alt="cross" class="close-reg">
+                    <h5 class="reg-name">Sign in</h5>
+                    <p class="reg-descr">
+                        Sign in to your account using email and password provided during registration.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Email</p>
+                        <input type="email" class="reg-input" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Keep me signed in</span>
+                            </div>
+                            <a href="#" class="forgot">Forgot password?</a>
+                        </div>
+                        <button class="btn">Sign in</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Don't have an account?</p>
+                            <a href="#" class="sign-link">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="sign-up" id="sign-up">
+                    <img src="img/close.svg" alt="cross" class="close-log">
+                    <h5 class="reg-name">Sign up</h5>
+                    <p class="reg-descr">
+                        Registration takes less than a minute but gives you full control over your studying.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Full Name</p>
+                        <input type="text" class="reg-input" placeholder="Your full name">
+                        <p class="reg-form-name">Email</p>
+                        <input class="reg-input" type="email" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <p class="reg-form-name">Confirm Password</p>
+                        <input class="reg-input" type="password" placeholder="Repeat password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Remember me</span>
+                            </div>
+                        </div>
+                        <button class="btn">Sign up</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Already have an account?</p>
+                            <a href="#" class="sign-link">Sign in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="contact-info">
+            <div class="wrapper">
+                <h3 class="quest">Contact info</h3>
+                <h2 class="section-title">Get in touch</h2>
+                <address class="contact-address">
+                    <div class="address-container">
+                        <h6 class="name-address">Talk to us:</h6>
+                        <a class="cont" href="mailto:hello@createx.com">hello@createx.com</a>
+                    </div>
+                    <div class="address-container">
+                        <h6 class="name-address">Call us:</h6>
+                        <a class="cont" href="tel:+4055550128">(405) 555-0128</a>
+                    </div>
+                    <div class="address-container">
+                        <h6 class="name-address">Address:</h6>
+                        <p class="cont">2464 Royal Ln. Mesa, New Jersey 45463, USA</p>
+                    </div>
+                </address>
+                <h5 class="social-name">Follow us:</h5>
+                <div class="social-cont">
+                    <a href="#" class="img-link">
+                        <img src="img/social-contact-1.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/social-contact-2.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/social-contact-3.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/social-contact-4.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/social-contact-5.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/social-contact-6.svg" alt="link">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="question">
+            <div class="wrapper">
+                <form action="post" class="quest-form">
+                    <div class="quest-text">
+                        <h3 class="quest">Any questions?</h3>
+                        <h2 class="section-title">Drop us a line</h2>
+                    </div>
+                    <input type="text" class="input-quest" placeholder="Your first name">
+                    <input type="text" class="input-quest" placeholder="Your last name">
+                    <input type="email" class="input-quest" name="mail" placeholder="Your working email">
+                    <input type="tel" class="input-quest" name="tel" placeholder="Your phone number">
+                    <textarea class="area-input input-quest" name="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    <div class="check-container">
+                        <input class="checkbox" type="checkbox" name="check">
+                        <span class="text-check">I agree to receive communications from Createx Online School</span>
+                        <button class="btn">Send message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-conteiner">
+                <a href="/index.html" class="footer-logo">
+                    <img class="footer-logo" src="img/footer-logo.png" alt="logo">
+                </a>
+                <p class="footer-descr">
+                    Createx Online School is a leader in online studying. 
+                    We have lots of courses and programs from the main market experts. 
+                    We provide relevant approaches to online learning, internships and employment in the 
+                    largest companies in the country. 
+                </p>
+                <div class="social-footer">
+                    <a href="#" class="img-link">
+                        <img src="img/Facebook.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Twitter.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/YouTube.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/telegram.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Instagram (1).svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Linked-In.svg" alt="link">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SITE MAP</h4>
+                <div class="footer-menu">
+                    <a href="/about.html" class="footer-link">About Us</a>
+                    <a href="/courses.html" class="footer-link">Courses</a>
+                    <a href="/events.html" class="footer-link">Events</a>
+                    <a href="/blog.html" class="footer-link">Blog</a>
+                    <a href="#" class="footer-link">Contacts</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">COURSES</h4>
+                <div class="footer-menu">
+                    <a href="#" class="footer-link">Marketing</a>
+                    <a href="#" class="footer-link">Management</a>
+                    <a href="#" class="footer-link">HR & Recruting</a>
+                    <a href="#" class="footer-link">Design</a>
+                    <a href="#" class="footer-link">Development</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">CONTACT US</h4>
+                <address class="footer-address">
+                    <a class="footer-tel" href="tel:4055550128">(405) 555-0128</a>
+                    <a class="footer-mail" href="mailto:hello@createx.com">hello@createx.com</a>
+                </address>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SIGN UP TO OUR NEWSLETTER</h4>
+                <form action="post" class="footer-form">
+                    <input class="footer-input" type="email" name="mail" placeholder="Email address">
+                    <button class="footer-btn"><img src="img/footer-arrow.svg" alt="arrow"></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/registration.js"></script>
+</body>
+</html>

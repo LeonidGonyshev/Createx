@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/course.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="/index.html" class="header__link">
+                <img src="img/header-logo.png" alt="logo" class="logo">
+            </a>
+            <div class="menu">
+                <a href="/about.html" class="menu__link">About Us</a>
+                <a href="#" class="menu__link">Courses</a>
+                <a href="/events.html" class="menu__link">Events</a>
+                <a href="/blog.html" class="menu__link">Blog</a>
+                <a href="/contacts.html" class="menu__link">Contacts</a>
+            </div>
+            <button class="btn">Get consultation</button>
+            <a href="#" class="login reg">Log in /</a>
+            <a href="#" class="login log">Register</a>
+            <div class="registration-fade">
+                <div class="registration" id="registration">
+                    <img src="img/close.svg" alt="cross" class="close-reg">
+                    <h5 class="reg-name">Sign in</h5>
+                    <p class="reg-descr">
+                        Sign in to your account using email and password provided during registration.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Email</p>
+                        <input type="email" class="reg-input" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Keep me signed in</span>
+                            </div>
+                            <a href="#" class="forgot">Forgot password?</a>
+                        </div>
+                        <button class="btn">Sign in</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Don't have an account?</p>
+                            <a href="#" class="sign-link">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="sign-up" id="sign-up">
+                    <img src="img/close.svg" alt="cross" class="close-log">
+                    <h5 class="reg-name">Sign up</h5>
+                    <p class="reg-descr">
+                        Registration takes less than a minute but gives you full control over your studying.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Full Name</p>
+                        <input type="text" class="reg-input" placeholder="Your full name">
+                        <p class="reg-form-name">Email</p>
+                        <input class="reg-input" type="email" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <p class="reg-form-name">Confirm Password</p>
+                        <input class="reg-input" type="password" placeholder="Repeat password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Remember me</span>
+                            </div>
+                        </div>
+                        <button class="btn">Sign up</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Already have an account?</p>
+                            <a href="#" class="sign-link">Sign in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="tab-courses">
+            <div class="wrapper">
+                <h3 class="quest">Enjoy your studying!</h3>
+                <h2 class="section-title">Our online courses</h2>
+                <div class="courses-tabs">
+                    <a href="#all" class="tab-link active-tab">All <span class="number-course">9</span></a>
+                    <a href="#Marketing" class="tab-link">Marketing <span class="number-course">2</span></a>
+                    <a href="#Management" class="tab-link">Management <span class="number-course">2</span></a>
+                    <a href="#HR" class="tab-link">HR & Recruting <span class="number-course">2</span></a>
+                    <a href="#Design" class="tab-link">Design <span class="number-course">2</span></a>
+                    <a href="#Develop" class="tab-link">Development <span class="number-course">1</span></a>
+                </div>
+                <div class="tabs-container default-tabs" id="all">
+                    <ul class="learn-list">
+                        <li class="tabs-item">
+                            <img src="img/tabs-1.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name">Marketing</p>
+                                <p class="prof">The Ultimate Google Ads Training Course</p>
+                                <p class="item-price"><span class="price">$100 </span>| by Jerome Bell</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-2.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-man">Management</p>
+                                <p class="prof">Prduct Management Fundamentals</p>
+                                <p class="item-price"><span class="price">$480 </span>| by Marvin McKinney</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-3.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-hr">HR & Recruting</p>
+                                <p class="prof">HR  Management and Analytics</p>
+                                <p class="item-price"><span class="price">$200 </span>| by Leslie Alexander Li</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-4.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name">Marketing</p>
+                                <p class="prof">Brand Management & PR Communications</p>
+                                <p class="item-price"><span class="price">$530 </span>| by Kristin Watson</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-6.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-man">Management</p>
+                                <p class="prof">Business Development Management</p>
+                                <p class="item-price"><span class="price">$400 </span>| by Dianne Russell</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-5.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-des">Design</p>
+                                <p class="prof">Graphic Design Basic</p>
+                                <p class="item-price"><span class="price">$500 </span>| by Guy Hawkins</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-7.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-dev">Development</p>
+                                <p class="prof">Highload Software Architecture</p>
+                                <p class="item-price"><span class="price">$600 </span>| by Brooklyn Simmons</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-8.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-hr">HR & Recruting</p>
+                                <p class="prof">Human Resources – Selection and Recruitment</p>
+                                <p class="item-price"><span class="price">$150 </span>| by by Kathryn Murphy</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-9.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-des">Design</p>
+                                <p class="prof">User Experience. Human-centered Design</p>
+                                <p class="item-price"><span class="price">$240 </span>| by by Cody Fisher</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-container" id="Marketing">
+                    <ul class="learn-list">
+                        <li class="tabs-item">
+                            <img src="img/tabs-1.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name">Marketing</p>
+                                <p class="prof">The Ultimate Google Ads Training Course</p>
+                                <p class="item-price"><span class="price">$100 </span>| by Jerome Bell</p>
+                            </div>
+                        </li>
+                        
+                        <li class="tabs-item">
+                            <img src="img/tabs-4.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name">Marketing</p>
+                                <p class="prof">Brand Management & PR Communications</p>
+                                <p class="item-price"><span class="price">$530 </span>| by Kristin Watson</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-container" id="Management">
+                    <ul class="learn-list">
+                        <li class="tabs-item">
+                            <img src="img/tabs-2.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-man">Management</p>
+                                <p class="prof">Prduct Management Fundamentals</p>
+                                <p class="item-price"><span class="price">$480 </span>| by Marvin McKinney</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-6.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-man">Management</p>
+                                <p class="prof">Business Development Management</p>
+                                <p class="item-price"><span class="price">$400 </span>| by Dianne Russell</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-container" id="HR">
+                    <ul class="learn-list">
+                        <li class="tabs-item">
+                            <img src="img/tabs-3.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-hr">HR & Recruting</p>
+                                <p class="prof">HR  Management and Analytics</p>
+                                <p class="item-price"><span class="price">$200 </span>| by Leslie Alexander Li</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-8.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-hr">HR & Recruting</p>
+                                <p class="prof">Human Resources – Selection and Recruitment</p>
+                                <p class="item-price"><span class="price">$150 </span>| by by Kathryn Murphy</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-container" id="Design">
+                    <ul class="learn-list">
+                        <li class="tabs-item">
+                            <img src="img/tabs-5.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-des">Design</p>
+                                <p class="prof">Graphic Design Basic</p>
+                                <p class="item-price"><span class="price">$500 </span>| by Guy Hawkins</p>
+                            </div>
+                        </li>
+                        <li class="tabs-item">
+                            <img src="img/tabs-9.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-des">Design</p>
+                                <p class="prof">User Experience. Human-centered Design</p>
+                                <p class="item-price"><span class="price">$240 </span>| by by Cody Fisher</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabs-container" id="Develop">
+                    <ul class="learn-list">
+                        <li class="tabs-item">
+                            <img src="img/tabs-7.png" alt="foto" class="item-img">
+                            <div class="item-info">
+                                <p class="prof-name prof-dev">Development</p>
+                                <p class="prof">Highload Software Architecture</p>
+                                <p class="item-price"><span class="price">$600 </span>| by Brooklyn Simmons</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="comment">
+            <div class="wrapper">
+                <h3 class="quest">TESTIMONIALS</h3>
+                <h2 class="section-title">What our students say</h2>
+                <div class="comment-slider">
+                    <button class="slide-btn" id="comment-prev"><svg class="arrow" width="24" height="24" view-box="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.20711 17.2071C8.81658 17.5976 8.18342 17.5976 7.79289 17.2071L3.29289 12.7071C2.90237 12.3166 2.90237 11.6834 3.29289 11.2929L7.79289 6.79289C8.18342 6.40237 8.81658 6.40237 9.20711 6.79289C9.59763 7.18342 9.59763 7.81658 9.20711 8.20711L6.41421 11L20 11C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13L6.41421 13L9.20711 15.7929C9.59763 16.1834 9.59763 16.8166 9.20711 17.2071Z" fill="#424551"/>
+                        </svg>
+                        </button>
+                    <div class="comment-slide">
+                        <div class="slide-cont">
+                            <p class="slide-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque laboriosam, 
+                                nihil odit molestiae a cupiditate? Necessitatibus, ratione omnis? Est suscipit animi amet quam at 
+                                eaque ullam odio, sit repellat placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dolorem ipsa hic minima quos quisquam cum dolores qui nam, est distinctio, eos, nihil aliquid iusto 
+                                praesentium soluta incidunt quasi dolor aspernatur!
+                            </p>
+                            <div class="comment-profile">
+                                <img src="img/comment.png" alt="profile">
+                                <div class="profile-info">
+                                    <p class="profile-name">Eleanor Pena</p>
+                                    <p class="profile-course">Position, Course</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-cont">
+                            <p class="slide-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque laboriosam, 
+                                nihil odit molestiae a cupiditate? Necessitatibus, ratione omnis? Est suscipit animi amet quam at 
+                                eaque ullam odio, sit repellat placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dolorem ipsa hic minima quos quisquam cum dolores qui nam, est distinctio, eos, nihil aliquid iusto 
+                                praesentium soluta incidunt quasi dolor aspernatur!
+                            </p>
+                            <div class="comment-profile">
+                                <img src="img/comment.png" alt="profile">
+                                <div class="profile-info">
+                                    <p class="profile-name">Eleanor Pena</p>
+                                    <p class="profile-course">Position, Course</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slide-cont">
+                            <p class="slide-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque laboriosam, 
+                                nihil odit molestiae a cupiditate? Necessitatibus, ratione omnis? Est suscipit animi amet quam at 
+                                eaque ullam odio, sit repellat placeat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                Dolorem ipsa hic minima quos quisquam cum dolores qui nam, est distinctio, eos, nihil aliquid iusto 
+                                praesentium soluta incidunt quasi dolor aspernatur!
+                            </p>
+                            <div class="comment-profile">
+                                <img src="img/comment.png" alt="profile">
+                                <div class="profile-info">
+                                    <p class="profile-name">Eleanor Pena</p>
+                                    <p class="profile-course">Position, Course</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slide-btn" id="comment-next"><svg class="arrow" width="24" height="24" view-box="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" fill="#424551"/>
+                        </svg>
+                        </button>
+                </div>
+                <div class="pagination">
+                    <button class="btn-pag" ><div id="pag-1" class="pag active-pagination"></div></button>
+                    <button class="btn-pag" ><div id="pag-2" class="pag"></div></button>
+                    <button class="btn-pag" ><div id="pag-3" class="pag"></div></button>
+                </div>
+            </div>
+        </section>
+        <section class="sertificate">
+            <div class="wrapper">
+                <div class="sertificate-left">
+                    <div class="sertificate-cont">
+                        <h3 class="quest">Createx Certificate</h3>
+                        <h2 class="section-title">Your expertise will be confirmed</h2>
+                        <p class="sertificate-descr">We are accredited by international professional organizations and institutes:</p>
+                        <div class="sert-logo">
+                            <a href="#" class="sert-link"><img src="img/certificate-1.png" alt="logo"></a>
+                            <a href="#" class="sert-link"><img src="img/certificate-2.png" alt="logo"></a>
+                            <a href="#" class="sert-link"><img src="img/certificate-3.png" alt="logo"></a>
+                        </div>
+                    </div>
+                    <img src="img/certificate-big.png" alt="certificate" class="sertificate-img">
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="wrapper">
+                <h3 class="quest">Don’t miss anything</h3>
+                <h2 class="section-title">Subscribe to the Createx School announcements</h2>
+                <form action="post" class="subscribe-form">
+                    <input class="input" type="email" name="mail" id="email" placeholder="Your working email">
+                    <button class="btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-conteiner">
+                <a href="/index.html" class="footer-logo">
+                    <img class="footer-logo" src="img/footer-logo.png" alt="logo">
+                </a>
+                <p class="footer-descr">
+                    Createx Online School is a leader in online studying. 
+                    We have lots of courses and programs from the main market experts. 
+                    We provide relevant approaches to online learning, internships and employment in the 
+                    largest companies in the country. 
+                </p>
+                <div class="social-footer">
+                    <a href="#" class="img-link">
+                        <img src="img/Facebook.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Twitter.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/YouTube.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/telegram.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Instagram (1).svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="img/Linked-In.svg" alt="link">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SITE MAP</h4>
+                <div class="footer-menu">
+                    <a href="/about.html" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Courses</a>
+                    <a href="/events.html" class="footer-link">Events</a>
+                    <a href="/blog.html" class="footer-link">Blog</a>
+                    <a href="/contacts.html" class="footer-link">Contacts</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">COURSES</h4>
+                <div class="footer-menu">
+                    <a href="#" class="footer-link">Marketing</a>
+                    <a href="#" class="footer-link">Management</a>
+                    <a href="#" class="footer-link">HR & Recruting</a>
+                    <a href="#" class="footer-link">Design</a>
+                    <a href="#" class="footer-link">Development</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">CONTACT US</h4>
+                <address class="footer-address">
+                    <a class="footer-tel" href="tel:4055550128">(405) 555-0128</a>
+                    <a class="footer-mail" href="mailto:hello@createx.com">hello@createx.com</a>
+                </address>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SIGN UP TO OUR NEWSLETTER</h4>
+                <form action="post" class="footer-form">
+                    <input class="footer-input" type="email" name="mail" placeholder="Email address">
+                    <button class="footer-btn"><img src="img/footer-arrow.svg" alt="arrow"></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="js/course.js"></script>
+    <script src="js/registration.js"></script>
+</body>
+</html>

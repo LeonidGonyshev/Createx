@@ -1,0 +1,250 @@
+.about-hero .wrapper {
+    flex-direction: column;
+    align-items: start;
+    background-image: url(../img/about-illustration.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.header {
+    background: #FFFFFF;
+}
+.about-hero {
+    padding-bottom: 180px;
+}
+.about-hero-descr {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 24px;
+}
+.about-hero-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 60px;
+}
+.about-hero-cont {
+    max-width: 600px;
+}
+.wideo .wrapper {
+    flex-direction: column;
+    background-image: url(../img/about-wideo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 810px 500px;
+}
+.wideo-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #1E212C;
+}
+.wideo-number {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    color: #FF3F3A;
+    margin-right: 16px;
+}
+.wideo button {
+    background: transparent;
+}
+.wideo-static {
+    align-self: flex-end;
+    margin-bottom: 276px;
+}
+.our-values {
+    padding-bottom: 180px;
+}
+.our-values .wrapper {
+    flex-direction: column;
+}
+.value-list {
+    display: flex;
+    align-items: center;
+}
+.value-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+.our-values .section-title {
+    margin-bottom: 60px;
+}
+.value-item {
+    width: 330px;
+    padding-right: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.value-item:not(:first-child){
+    padding-left: 45px;
+}
+.value-item:not(:last-child){
+    background-image: url(../img/divider.svg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.value-item-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+.item-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #787A80;
+}
+.direction .wrapper {
+    flex-direction: column;
+}
+.learn-item {
+    width: 390px;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid #E5E8ED;
+    border-radius: 4px;
+    box-shadow: none;
+    transition: all ease 0.2s;
+}
+.learn-item:hover {
+    box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 
+    0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 
+    0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+}
+.learn-item:last-child {
+    background: #F4F5F7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.prof {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+    margin: 0;
+}
+.direction {
+    padding-bottom: 180px;
+}
+.direction-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 160%;
+    color: #1E212C;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all ease 0.2s;
+}
+.direction-link:hover{
+    color: #FF3F3A;
+}
+.item-info {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 20px;
+}
+.prof-name {
+    margin: 0;
+    align-self: start;
+}
+.new-course {
+    max-width: 242px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #424551;
+    text-align: center;
+}
+.studing {
+    padding-bottom: 180px;
+}
+.studing .wrapper {
+    flex-direction: column;
+    align-items: start;
+    background-image: url(../img/studing-bg.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.studing-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    position: relative;
+}
+.studing-list::before {
+    content: url(../img/line.svg);
+    position: absolute;
+    left: -23px;
+}
+.studing-item {
+    max-width: 490px;
+    position: relative;
+}
+.studing-item::before {
+    content: url(../img/ellipse.svg);
+    position: absolute;
+    left: -30px;
+}
+.step {
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 150%;
+    color: #787A80;
+    margin-bottom: 2px;
+}
+.step-name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1E212C;
+    margin-bottom: 8px;
+}
+.step-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #787A80;
+}
+.tutor .wrapper {
+    flex-direction: column;
+}
+.tutor {
+    padding-bottom: 120px;
+}
+.tutors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    row-gap: 60px;
+}
+.comment {
+    padding-top: 100px;
+}
+.job {
+    padding-top: 80px;
+    padding-bottom: 100px;
+    background: #F4F5F7;
+}
+.job .wrapper {
+    flex-direction: column;
+}
+.job-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 102px;
+    row-gap: 40px;
+}

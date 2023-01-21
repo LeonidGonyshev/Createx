@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/eventsItem.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <a href="#" class="header__link">
+                <img src="../img/header-logo.png" alt="logo" class="logo">
+            </a>
+            <div class="menu">
+                <a href="/about.html" class="menu__link">About Us</a>
+                <a href="/courses.html" class="menu__link">Courses</a>
+                <a href="/events.html" class="menu__link">Events</a>
+                <a href="/blog.html" class="menu__link">Blog</a>
+                <a href="/contacts.html" class="menu__link">Contacts</a>
+            </div>
+            <button class="btn">Get consultation</button>
+            <a href="#" class="login reg">Log in /</a>
+            <a href="#" class="login log">Register</a>
+            <div class="registration-fade">
+                <div class="registration" id="registration">
+                    <img src="../img/close.svg" alt="cross" class="close-reg">
+                    <h5 class="reg-name">Sign in</h5>
+                    <p class="reg-descr">
+                        Sign in to your account using email and password provided during registration.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Email</p>
+                        <input type="email" class="reg-input" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Keep me signed in</span>
+                            </div>
+                            <a href="#" class="forgot">Forgot password?</a>
+                        </div>
+                        <button class="btn">Sign in</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Don't have an account?</p>
+                            <a href="#" class="sign-link">Sign up</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="sign-up" id="sign-up">
+                    <img src="../img/close.svg" alt="cross" class="close-log">
+                    <h5 class="reg-name">Sign up</h5>
+                    <p class="reg-descr">
+                        Registration takes less than a minute but gives you full control over your studying.
+                    </p>
+                    <form action="post" class="reg-form">
+                        <p class="reg-form-name">Full Name</p>
+                        <input type="text" class="reg-input" placeholder="Your full name">
+                        <p class="reg-form-name">Email</p>
+                        <input class="reg-input" type="email" placeholder="Your working email">
+                        <p class="reg-form-name">Password</p>
+                        <input class="reg-input" type="password" name="pas" placeholder="Create password">
+                        <p class="reg-form-name">Confirm Password</p>
+                        <input class="reg-input" type="password" placeholder="Repeat password">
+                        <div class="check-cont">
+                            <div class="check-box">
+                                <input type="checkbox" name="check"><span class="check-info">Remember me</span>
+                            </div>
+                        </div>
+                        <button class="btn">Sign up</button>
+                        <div class="sign-cont">
+                            <p class="create-acc">Already have an account?</p>
+                            <a href="#" class="regist-link">Sign in</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="event-hero">
+            <div class="wrapper">
+                <h6 class="events-descr">Online lecture</h6>
+                <h2 class="section-title">Building a customer service department. Best Practices.</h2>
+            </div>
+        </section>
+        <section class="talk">
+            <div class="wrapper">
+                <h2 class="section-title">We will talk about:</h2>
+                <div class="talk-tabs">
+                    <div class="tab-contai">
+                        <span class="talk-links">
+                            Theme 1. <span class="thems-name">Aliquet lectus urna viverra in odio.</span>
+                        </span>
+                        <div class="tab-info" id="theme-1">
+                            <p class="tab-descript">
+                                Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. 
+                                Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. 
+                                Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. 
+                                Commodo nunc orci vitae accumsan id.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-contai">
+                        <span class="talk-links">
+                            Theme 2. <span class="thems-name">Orci commodo, viverra orci mollis ut euismod.</span>
+                        </span>
+                        <div class="tab-info" id="theme-2">
+                            <p class="tab-descript">
+                                Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. 
+                                Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. 
+                                Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. 
+                                Commodo nunc orci vitae accumsan id.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-contai">
+                        <span class="talk-links">
+                            Theme 3. <span class="thems-name">Sagittis vitae facilisi rutrum amet mauris quisque vel.</span>
+                        </span>
+                        <div class="tab-info" id="theme-3">
+                            <p class="tab-descript">
+                                Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. 
+                                Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. 
+                                Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. 
+                                Commodo nunc orci vitae accumsan id.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-contai">
+                        <span class="talk-links">
+                            Theme 4. <span class="thems-name">In id dolor quis nunc, urna hendrerit pharetra.</span>
+                        </span>
+                        <div class="tab-info" id="theme-4">
+                            <p class="tab-descript">
+                                Nulla amet, sagittis potenti rhoncus sit. Elit lectus nec pulvinar aliquet donec enim, ornare. 
+                                Lacus facilisi curabitur turpis varius mauris. Nisi, tempus risus, odio mi suscipit sed. 
+                                Curabitur faucibus porttitor quis sem lacus, arcu feugiat facilisis. 
+                                Commodo nunc orci vitae accumsan id.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="event-information">
+                    <p class="info-name">Time</p>
+                    <p class="info-time">24 Jul, 11:00 – 12:30</p>
+                    <p class="info-descr">Metus turpis sit lorem lacus, in elit tellus lacus.</p>
+                    <p class="info-name">Price</p>
+                    <p class="info-time">Free</p>
+                    <p class="info-descr">Nulla sem adipiscing adipiscing felis fringilla. Adipiscing mauris quam ac elit tristique dis.</p>
+                    <a href="#" class="info-link">Event on Facebook</a>
+                    <button class="btn">Join the event</button>
+                </div>
+            </div>
+        </section>
+        <section class="speaker">
+            <div class="wrapper">
+                <div class="speaker-container">
+                    <h3 class="quest">Speaker</h3>
+                <h2 class="section-title">Andru Smith</h2>
+                <p class="speaker-work">
+                    Analyst and Marketing specialist in IT company
+                </p>
+                <p class="sreaker-descr">
+                    Mattis adipiscing aliquam eu proin metus a iaculis faucibus. 
+                    Tempus curabitur venenatis, vulputate venenatis fermentum ante. 
+                    Nisl, amet id semper semper quis commodo, consequat. Massa rhoncus sit morbi odio. 
+                    Sit maecenas nibh consectetur vel diam. Sem vulputate molestie 
+                    laoreet at massa sed pharetra. Ac commodo platea id habitasse proin. 
+                    Nullam sit nec ipsum posuere non. Nam vel aliquam tristique sollicitudin interdum quam. 
+                </p>
+                <div class="speaker-work-icon">
+                    <img src="../img/speaker-1.png" alt="icon">
+                    <img src="../img/speaker-2.png" alt="icon">
+                    <img src="../img/speaker-3.png" alt="icon">
+                </div>
+                <div class="speaker-social">
+                    <a href="#" class="speaker-link"><img src="../img/social-contact-1.svg" alt="link"></a>
+                    <a href="#" class="speaker-link"><img src="../img/social-contact-3.svg" alt="link"></a>
+                    <a href="#" class="speaker-link"><img src="../img/social-contact-2.svg" alt="link"></a>
+                    <a href="#" class="speaker-link"><img src="../img/social-contact-6.svg" alt="link"></a>
+                </div>
+                </div>
+            </div>
+        </section>
+        <section class="benefit">
+            <div class="wrapper">
+                <h3 class="quest">For whom?</h3>
+                <div class="benefit-container">
+                    <h2 class="section-title">Who will benefit from the event:</h2>
+                    <ul class="benefit-list">
+                        <li class="benefit-item">Specialists with more than 1 year of active work experience</li>
+                        <li class="benefit-item">Mobile app designers who want to improve their skills in solving business problems, creating and testing human-centered interfaces</li>
+                        <li class="benefit-item">Professional designers who want to feel more confident in UX</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="wrapper">
+                <div class="newsletter-container">
+                    <h2 class="section-title">Don’t want to miss the best events?
+                        Subscribe to our newsletter!
+                    </h2>
+                    <form action="post" class="newsletter-form">
+                        <div class="form-container">
+                            <input type="email" class="newsletter-input" placeholder="Your working email">
+                            <button class="btn">Subscribe</button>
+                        </div>
+                        <div class="check-container">
+                            <input type="checkbox" class="newsletter-check">
+                            <span class="check-descr">I agree to receive communications from Createx Online School</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="request">
+            <div class="wrapper">
+                <h3 class="quest">Don’t miss the event</h3>
+                <h2 class="section-title">Leave a request</h2>
+                <form action="post" class="request-form">
+                    <div class="form-container">
+                        <div class="input-cont">
+                            <p class="input-name">Full Name</p>
+                            <input type="text" class="request-input" placeholder="Your full name">
+                        </div>
+                        <div class="input-cont">
+                            <p class="input-name">Email</p>
+                            <input type="email" class="request-input" placeholder="Your working email">
+                        </div>
+                        <div class="input-cont">
+                            <p class="input-name">Phone</p>
+                            <input type="tel" class="request-input" placeholder="Your phone number">
+                        </div>
+                    </div>
+                    <button class="btn">Join the event</button>
+                    <p class="form-info">* You will receive a link to the online lecture in an email after registration.</p>
+                </form>
+            </div>
+        </section>
+        <section class="online-event">
+            <div class="wrapper">
+                <h3 class="quest">Check other online events</h3>
+                <div class="top-container">
+                    <h2 class="section-title">You may be interested in</h2>
+                    <div class="arrow-cont">
+                        <img src="../img/prev-btn.svg" alt="left" class="arrows" id="left">
+                        <img src="../img/Right.svg" alt="right" class="arrows" id="right">
+                    </div>
+                </div>
+                <div class="slide-container">
+                    <div class="slide-item">
+                        <ul class="online-list">
+                            <li class="online-item">
+                                <p class="item-date">05 Aug</p>
+                                <p class="item-time">11:00 – 14:00</p>
+                                <h6 class="item-name">Formation of the organizational structure of the company in the face of uncertainty.</h6>
+                                <p class="item-format">Onine master-class</p>
+                                <button class="hero-btn item-btn">View more</button>
+                            </li>
+                            <li class="online-item">
+                                <p class="item-date">24 Jul</p>
+                                <p class="item-time">11:00 – 12:30</p>
+                                <h6 class="item-name">Building a customer service department. Best Practices.</h6>
+                                <p class="item-format">Onine lecture</p>
+                                <button class="hero-btn item-btn">View more</button>
+                            </li>
+                            <li class="online-item">
+                                <p class="item-date">10 Jul</p>
+                                <p class="item-time">9:00 – 14:00</p>
+                                <h6 class="item-name">Find and evaluate: search and assessment tools for candidates.</h6>
+                                <p class="item-format">Onine workshop</p>
+                                <button class="hero-btn item-btn">View more</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="slide-item">
+                        <ul class="online-list">
+                            <li class="online-item">
+                                <p class="item-date">27 Jul</p>
+                                <p class="item-time">09:00 – 14:00</p>
+                                <h6 class="item-name">Formation of the organizational structure of the company in the face of uncertainty.</h6>
+                                <p class="item-format">Onine master-class</p>
+                                <button class="hero-btn item-btn">View more</button>
+                            </li>
+                            <li class="online-item">
+                                <p class="item-date">15 Jul</p>
+                                <p class="item-time">11:00 – 12:30</p>
+                                <h6 class="item-name">Building a customer service department. Best Practices.</h6>
+                                <p class="item-format">Onine lecture</p>
+                                <button class="hero-btn item-btn">View more</button>
+                            </li>
+                            <li class="online-item">
+                                <p class="item-date">02 Jul</p>
+                                <p class="item-time">9:00 – 14:00</p>
+                                <h6 class="item-name">Find and evaluate: search and assessment tools for candidates.</h6>
+                                <p class="item-format">Onine workshop</p>
+                                <button class="hero-btn item-btn">View more</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-cont">
+                    <h6 class="more">Do you want more?</h6>
+                    <a href="/events.html" class="btn">Explore all events</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-conteiner">
+                <a href="#" class="footer-logo">
+                    <img class="footer-logo" src="../img/footer-logo.png" alt="logo">
+                </a>
+                <p class="footer-descr">
+                    Createx Online School is a leader in online studying. 
+                    We have lots of courses and programs from the main market experts. 
+                    We provide relevant approaches to online learning, internships and employment in the 
+                    largest companies in the country. 
+                </p>
+                <div class="social-footer">
+                    <a href="#" class="img-link">
+                        <img src="../img/Facebook.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="../img/Twitter.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="../img/YouTube.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="../img/telegram.svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="../img/Instagram (1).svg" alt="link">
+                    </a>
+                    <a href="#" class="img-link">
+                        <img src="../img/Linked-In.svg" alt="link">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">SITE MAP</h4>
+                <div class="footer-menu">
+                    <a href="/about.html" class="footer-link">About Us</a>
+                    <a href="/courses.html" class="footer-link">Courses</a>
+                    <a href="/events.html" class="footer-link">Events</a>
+                    <a href="/blog.html" class="footer-link">Blog</a>
+                    <a href="/contacts.html" class="footer-link">Contacts</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">COURSES</h4>
+                <div class="footer-menu">
+                    <a href="#" class="footer-link">Marketing</a>
+                    <a href="#" class="footer-link">Management</a>
+                    <a href="#" class="footer-link">HR & Recruting</a>
+                    <a href="#" class="footer-link">Design</a>
+                    <a href="#" class="footer-link">Development</a>
+                </div>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title">CONTACT US</h4>
+                <address class="footer-address">
+                    <a class="footer-tel" href="tel:4055550128">(405) 555-0128</a>
+                    <a class="footer-mail" href="mailto:hello@createx.com">hello@createx.com</a>
+                </address>
+            </div>
+            <div class="footer-conteiner">
+                <h4 class="footer-title form-title">SIGN UP TO OUR NEWSLETTER</h4>
+                <form action="post" class="footer-form">
+                    <input class="footer-input" type="email" name="mail" placeholder="Email address">
+                    <button class="footer-btn"><img src="../img/footer-arrow.svg" alt="arrow"></button>
+                </form>
+                <p class="input-descr">
+                    *Subscribe to our newsletter to receive communications and early updates from Createx SEO Agency.
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="wrapper wrapper-bottom">
+                <div class="bottom-cont">
+                    <p class="bottom-rights">© All rights reserved.Made with <img src="../img/Heart.svg" alt="heart">by Gonyshev Leonid </p>
+                    <a href="#" class="link-top">GO TO TOP</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../js/registration.js"></script>
+    <script src="../js/eventsItem.js"></script>
+</body>
+</html>
