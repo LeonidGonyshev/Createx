@@ -331,6 +331,9 @@ li{
     justify-content: center;
     align-items: center;
 }
+.default-display {
+    display: flex;
+}
 .event {
     padding: 80px 0;
     background: #F4F5F7;

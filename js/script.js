@@ -1,6 +1,8 @@
 const tab = document.querySelectorAll('.tab');
+const defaultTab = document.querySelector('.default-display');
 const openTab = (item) => {
     item.addEventListener('click', ()=> {
+        defaultTab.classList.remove('default-display');
         tab.forEach((item)=> {
             item.classList.remove('default-tab')
         })
